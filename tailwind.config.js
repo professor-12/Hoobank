@@ -7,6 +7,10 @@ export default {
     extend: {
       fontFamily: {
         Poppins: ["Poppins","sans-serif"]
+      },
+      colors: {
+        lightGray: "#272727",
+        darkGray:"#11101d"
       }
     },
   },
