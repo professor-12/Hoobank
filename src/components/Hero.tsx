@@ -2,9 +2,9 @@ const Hero = () => {
     return (
         <div className="flex space-y-12 lg:space-y-0 relative lg:flex-col xl:flex-row flex-col md:flex-col pb-32 lg:pt-[6rem]">
             <div className="mt-20 space-y-7 flex-1">
-                <div className="bg-discount-gradient space-x-3 flex rounded-xl  w-[22.5rem] p-2 px-3 items-center  text-white">
+                <div className="bg-discount-gradient md:space-x-3 flex rounded-xl  md:w-[22.5rem] p-2 md:x-3 items-center  text-white">
                     <img src="/Discount.61d9dc08.svg" alt="" />
-                    <span className="text-lg tracking-tight">
+                    <span className="md:text-lg tracking-tight">
                         20%{" "}
                         <span className="text-[#ffffffb3]">Discount For </span>1
                         Month <span className="">Account</span>
