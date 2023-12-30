@@ -6,7 +6,7 @@ const Hero = () => {
                     <img src="/Discount.61d9dc08.svg" alt="" />
                     <span className="md:text-lg tracking-tight">
                         20%{" "}
-                        <span className="text-[#ffffffb3]">Discount For </span>1
+                        <span className="text-muted">Discount For </span>1
                         Month <span className="">Account</span>
                     </span>
                 </div>
@@ -20,7 +20,7 @@ const Hero = () => {
                         </span>{" "}
                         Payment Method
                     </h1>
-                    <p className="md:w-[32rem] w-full font-normal mt-12 text-[#ffffffb3] leading-7 text-lg">
+                    <p className="md:w-[32rem] w-full font-normal mt-12 text-muted leading-7 text-lg">
                         With the right credit card, you can improve your
                         financial life by building credit, earning rewards and
                         saving money. But with hundreds of credit cards on the

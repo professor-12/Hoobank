@@ -10,7 +10,8 @@ export default {
       },
       colors: {
         lightGray: "#272727",
-        darkGray:"#11101d"
+        darkGray: "#11101d",
+        muted: "#ffffffb3"
       }
     },
   },
