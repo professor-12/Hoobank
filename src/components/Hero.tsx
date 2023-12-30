@@ -47,7 +47,7 @@ const Hero = () => {
             </div>
             <div className="lg:relative flex-2">
                   <div className="lg:absolute bg-gradient-to-tl rounded-full blur-[900px] -z-[0] from-[#f4c4f3] from-0% t0-100% md:w-[20rem]   to-[#fc67fa]" />
-                  <div className="right-20 top-20  absolute bg-gradient-to-tl rounded-full blur-[300px] -z-[0] from-[#b7a0f8] from-0% t0-100% w-[20rem] h-[20rem]  to-[#214d76]" />
+                  <div className="right-20 top-20  absolute bg-gradient-to-tl rounded-full blur-[200px] -z-[0] from-[#b7a0f8] from-0% t0-100% w-[20rem] h-[20rem]  to-[#214d76]" />
                   <div className="md:relative  -right-[4.8rem]">
                       <img
                           src="/robot.352cd501.png"
