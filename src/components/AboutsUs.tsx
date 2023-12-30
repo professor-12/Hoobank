@@ -24,7 +24,7 @@ const data = [
 const AboutsUs = () => {
     return (
         <section className="py-40">
-            <div className="text-white md:grid-flow-col space-y-3 md:space-y-0 text-center md:text-left grid items-center">
+            <div className="text-white lg:grid-flow-col space-y-3 md:space-y-0 text-center md:text-left grid items-center">
                 <h1 className="md:text-5xl text-4xl font-semibold tracking-wide md:w-[70%] leading-12 md:leading-[4.5rem]">
                     What people are saying about us
                 </h1>
@@ -34,9 +34,9 @@ const AboutsUs = () => {
                 </p>
             </div>
 
-            <div className="md:grid grid-cols-3 py-12 gap-12 w-[80%] mx-auto">
+            <div className="lg:grid grid-cols-3 py-12 gap-12 w-[80%] mx-auto">
                 {data.map((item) => (
-                    <div className="text-white z-[1] rounded-2xl hover:bg-gradient-to-tl to-[#6d6d6d84] from-[#11101d7b]  py-10 p-5 space-y-7">
+                    <div key={item.photo} className="text-white z-[1] rounded-2xl hover:bg-gradient-to-tl to-[#6d6d6d84] from-[#11101d7b]  py-10 p-5 space-y-7">
                         <h1 className="text-gradient text-7xl">''</h1>
                         <p className="leading-9 text-lg">
                             Money is only a tool. It will take you wherever you

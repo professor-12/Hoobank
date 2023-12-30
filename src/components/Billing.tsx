@@ -29,10 +29,10 @@ const Billing = () => {
                     <img src="/card.af071def.png" alt="" />
                 </div>
                 <div className="text-white space-y-5">
-                    <h1 className="text-5xl font-semibold lg:w-[90%] leading-[4.1rem]">
+                    <h1 className="text-3xl md:text-5xl font-semibold lg:w-[90%] md:leading-[4.1rem]">
                         Find a better card deal in few easy steps.
                     </h1>
-                    <p className="text-muted text-lg lg:w-[70%] leading-8">
+                    <p className="text-muted md:text-lg lg:w-[70%] md:leading-8">
                         Arcu tortor, purus in mattis at sed integer faucibus.
                         Aliquet quis aliquet eget mauris tortor.ç Aliquet
                         ultrices ac, ametau.

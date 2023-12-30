@@ -20,21 +20,19 @@ const GetStarted = () => {
     return (
         <div className="lg:grid lg:grid-cols-2 lg:space-y-0 space-y-9 lg:gap-20 py-12">
             <div className="text-white space-y-5">
-                <h1 className="text-5xl font-semibold lg:w-[90%] leading-[4.1rem]">
+                <h1 className="text-3xl md:text-5xl font-semibold lg:w-[90%] md:leading-[4.1rem]">
                     You do the business, we’ll handle the money.
                 </h1>
-                <p className="text-muted text-lg lg:w-[70%] leading-8">
+                <p className="text-muted md:text-lg lg:w-[70%] md:leading-8">
                     With the right credit card, you can improve your financial
                     life by building credit, earning rewards and saving money.
                     But with hundreds of credit cards on the market.
                 </p>
-                <button className="bg-gradient-to-br text-black from-white to-teal-500 from-0% to-50%  px-8  p-4 rounded-xl">
-                    Get Started
-                </button>
+               
             </div>
             <div className="space-y-5">
                 {data.map((item) => (
-                    <div className="flex  space-x-4 transition-all duration-150 hover:bg-gradient-to-tr from-[#6d6d6d] to-[#11101d]  lg:px-5  p-4 rounded-2xl">
+                    <div key={item.svg} className="flex  space-x-4 transition-all duration-150 hover:bg-gradient-to-tr from-[#6d6d6d] to-[#11101d]  lg:px-5  p-4 rounded-2xl">
                         <div>
                             <div className="flex bg-[#171129]  h-[4rem] rounded-full w-[4rem] items-center justify-center">
                                 <img src={item.svg} className="" alt="" />

@@ -3,6 +3,7 @@ import Billing from "../components/Billing";
 import GetStarted from "../components/GetStarted";
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
+import Services from "../components/Services";
 import Stats from "../components/Stats";
 
 const Home = () => {
@@ -13,7 +14,8 @@ const Home = () => {
                 <Stats />
             <GetStarted />
             <Billing />
-            <AboutsUs/>
+            <AboutsUs />
+            <Services/>
         </div>
     );
 };
