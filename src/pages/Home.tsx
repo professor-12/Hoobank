@@ -1,5 +1,6 @@
 import AboutsUs from "../components/AboutsUs";
 import Billing from "../components/Billing";
+import Footer from "../components/Footer";
 import GetStarted from "../components/GetStarted";
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
@@ -15,7 +16,8 @@ const Home = () => {
             <GetStarted />
             <Billing />
             <AboutsUs />
-            <Services/>
+            <Services />
+            <Footer></Footer>
         </div>
     );
 };
