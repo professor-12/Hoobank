@@ -1,3 +1,4 @@
+import Billing from "../components/Billing";
 import GetStarted from "../components/GetStarted";
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
@@ -9,7 +10,8 @@ const Home = () => {
                 <NavBar />
                 <Hero />
                 <Stats />
-                <GetStarted/>
+            <GetStarted />
+            <Billing/>
         </div>
     );
 };

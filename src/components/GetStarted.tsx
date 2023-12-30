@@ -18,7 +18,7 @@ const data = [
 
 const GetStarted = () => {
     return (
-        <div className="lg:grid lg:grid-cols-2 space-y-9 lg:gap-20 py-12">
+        <div className="lg:grid lg:grid-cols-2 lg:space-y-0 space-y-9 lg:gap-20 py-12">
             <div className="text-white space-y-5">
                 <h1 className="text-5xl font-semibold lg:w-[90%] leading-[4.1rem]">
                     You do the business, we’ll handle the money.
